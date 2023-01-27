@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dungeons-dragons"
+version = "0.1.0"
+description = "This is class base version of my project"
+authors = ["masoud89"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dungeons_dragons"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+termcolor2 = "^0.0.3"
+font-size = "^0.1.2"
+flake8 = "^6.0.0"
+black = "^22.12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pyment = "^0.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
