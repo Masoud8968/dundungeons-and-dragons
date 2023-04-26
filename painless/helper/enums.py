@@ -1,12 +1,13 @@
-
-from enum import Enum, IntEnum, StrEnum
+from enum import StrEnum
 
 from termcolor2 import colored
+
 
 class color(StrEnum):
     board_color = "yellow"
     maze_color = "red"
     user_color = "magenta"
+
 
 class emoji(StrEnum):
     normal_player = colored("\u0001", "light_green")

@@ -2,19 +2,15 @@ import os
 from math import dist
 from random import randint
 import setting.game_settings as gs
-from point.point import Point
-from helper.enums import emoji
-os.system("cls")
+from dungeons_dragons.controller.point import Point
+from painless.helper.enums import emoji
+
 
 class Tools:
     @staticmethod
     def calculate_distance(character1_location, character2_location) -> float:
         distance = abs(dist(character1_location, character2_location))
         return distance
-    
-    @staticmethod
-    def clear_screen():
-        return os.system("cls")
 
     @staticmethod
     def random_point():

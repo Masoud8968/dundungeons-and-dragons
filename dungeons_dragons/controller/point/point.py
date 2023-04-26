@@ -16,7 +16,7 @@ class Point:
     @property
     def X(self) -> str:
         return self.__X
-    
+
     @X.setter
     def X(self, value: int) -> None:
         if not isinstance(value, int):
@@ -24,11 +24,11 @@ class Point:
         if value < 0:
             raise ValueError("The value can't be negative!")
         self.__X = value
-    
+
     @property
     def Y(self) -> str:
         return self.__Y
-    
+
     @Y.setter
     def Y(self, value: int) -> None:
         if not isinstance(value, int):
@@ -36,7 +36,7 @@ class Point:
         if value < 0:
             raise ValueError("The value can't be negative!")
         self.__Y = value
-        
+
     @property
     def coordinate(self):
         return [self.X, self.Y]

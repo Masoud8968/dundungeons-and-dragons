@@ -1,8 +1,9 @@
-from random import randint, choice, sample
-from characters.game_characters import GameCharacter
-from helper.probability import Probability
-from helper.tools import Tools
+from random import choice, sample
+from .game_characters import GameCharacter
+from painless.helper.probability import Probability
+from painless.helper.tools import Tools
 import setting.game_settings as gs
+
 
 class Dragon(GameCharacter):
     """
@@ -101,6 +102,3 @@ class Dragon(GameCharacter):
                 else:
                     dragon_current_location = self.move(dragon_current_location, dragon_old_location)
         return self.location
-
-
-

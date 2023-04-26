@@ -1,8 +1,8 @@
-import json
 
-from characters.base_character import BaseCharacter
 
-from helper import exceptions as exc
+from controller.characters.base_character import BaseCharacter
+
+from painless.helper import exceptions as exc
 class User(BaseCharacter):
     """
     This is user class.

@@ -1,5 +1,6 @@
 from typing import Optional
-from helper import exceptions as exc
+from painless.helper import exceptions as exc
+
 
 class BaseCharacter:
     """
@@ -16,11 +17,11 @@ class BaseCharacter:
     @property
     def name(self):
         return self.__name
-    
+
     @name.setter
     def name(self, value):
         if len(value) < 3:
-            raise exc.NameLengthError()      
+            raise exc.NameLengthError()
         self.__name = value
 
     @property
@@ -30,8 +31,5 @@ class BaseCharacter:
     @family.setter
     def family(self, value):
         if value[0].isdigit():
-            raise exc.FamilyLengthError()       
+            raise exc.FamilyLengthError()
         self.__family = value
-
-
-

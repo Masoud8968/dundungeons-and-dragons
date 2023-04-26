@@ -1,12 +1,13 @@
 import os
-from board.maze import mazes
-from helper.enums import color
+from dungeons_dragons.view.maze import mazes
+from painless.helper.enums import color
 from termcolor2 import colored
 from typing import Dict, Optional
 import setting.game_settings as gs
 os.system('color')
 
-mazes = mazes
+# mazes = mazes
+
 
 class Board:
     """
