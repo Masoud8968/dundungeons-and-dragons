@@ -186,3 +186,4 @@ def game_loop(user):
             ClearScreen.clear_screen()
             print("YOU WIN!")
             break
+
