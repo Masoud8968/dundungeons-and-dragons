@@ -41,11 +41,11 @@ Upon starting the game, you will be prompted to either register or log in. If yo
 
 After logging in, the game will commence. Your objective is to escape from the dragons, as they relentlessly pursue you. It's important to note that the dragons can sense your presence if you get too close to them.
 
-While navigating the board, you may encounter a <span style="color:red">♥</span> symbol. These symbols appear randomly, and if you come across them, you will receive a boost in the form of a <span style="color:green">☻</span> symbol. With this boost, you gain the ability to retaliate against the dragons, forcing them to flee from you.
+While navigating the board, you may encounter a ❤️ symbol. These symbols appear randomly, and if you come across them, you will receive a boost in the form of a <span style="color:green">☻</span> symbol. With this boost, you gain the ability to retaliate against the dragons, forcing them to flee from you.
 
 It's crucial to keep in mind that the boost is not permanent, and after a random period of time, you will revert back to your default state.
 
-Occasionally, you may come across a <span style="color:green">♥</span> symbol. These symbols act as separators, causing the dragons to relocate to random positions, increasing the distance between them and you.
+Occasionally, you may come across a 💚 symbol. These symbols act as separators, causing the dragons to relocate to random positions, increasing the distance between them and you.
 
 In addition to the previous instructions, you can control your character's movement using the following keys:
 Press "up" or "8" to move upward.
