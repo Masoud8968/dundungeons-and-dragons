@@ -1,4 +1,4 @@
-# Quiz Project Instruction
+# Dungeons and Dragons Instruction
 
 ## Project Stack
 
